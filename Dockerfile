@@ -1,4 +1,4 @@
-FROM amd64/ubuntu:latest
+FROM i386/ubuntu:latest
 
 # Original Server v436
 ADD files/ut-server-linux-436.tar.gz /
