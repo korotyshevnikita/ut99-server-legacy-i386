@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: korotyshev/ut99-server-legacy-i386
+      IMAGE_NAME: ut99-server-legacy-i386
     steps:
     - name: Set Image Tag
       run: |
