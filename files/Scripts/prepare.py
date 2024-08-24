@@ -71,12 +71,16 @@ def initial_setup():
     ## FlagAnnouncementsV2
     set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerPackages', 'FlagAnnouncementsV2', True)
     set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerPackages', 'DefaultAnnouncements', True)
+    # InstaGibPlus
+    #set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerPackages', 'InstaGibPlus9', True)
+    #set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerActors', 'InstaGibPlus9.NewNetServer', True)
+    #set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerActors', 'InstaGibPlus9.PureStats', True)
     ## KickIdlePlayers2
     set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerPackages', 'KickIdlePlayers2', True)
     ## Map Vote Extended
-    set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerPackages', 'MVE2f', True)
+    set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerPackages', 'MVE2h', True)
     ## VoteSys
-    set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerPackages', 'VoteSys_v7d', True)
+    set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerPackages', 'VoteSys_v12', True)
     ## WhoPushedMe
     set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerPackages', 'EnhancedItems', True)
     set_config_value(utIniFileServer, 'Engine.GameEngine', 'ServerPackages', 'WhoPushedMe', True)
